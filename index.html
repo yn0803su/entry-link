@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
       window.onload = function() {
-        // 실제 Google Apps Script 웹앱 URL
-        window.location.href = "https://script.google.com/macros/s/AKfycbwqNgJKNtQU21ZxcB3fI9WK_7FXfXXVlma7Kw4Cq_3wyHygdViRldv0_CLRQx_TwyOF/exec";
+        setTimeout(function() {
+          window.location.href = "https://script.google.com/macros/s/AKfycbwqNgJKNtQU21ZxcB3fI9WK_7FXfXXVlma7Kw4Cq_3wyHygdViRldv0_CLRQx_TwyOF/exec";
+        }, 2500); // 2.5초 뒤 이동
       };
     </script>
   </head>
   <body style="text-align:center; padding-top:50px; font-family:sans-serif;">
-    <p>입장 확인 페이지로 이동 중입니다...페이지가 열리지 않을 경우 google 계정에서 로그 아웃 후 다시 시도해 주세요.</p>
+    <p>입장 확인 페이지로 이동 중입니다...<br>
+    페이지가 열리지 않을 경우 <strong>Google 계정에서 로그아웃</strong> 후 다시 시도해 주세요.</p>
   </body>
 </html>
